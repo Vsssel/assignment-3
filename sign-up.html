@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex">
+    <main class="flex flex-col w-[80%] ml-auto mr-auto lg:pl-[calc(25%-250px)] lg:pr-[calc(25%-250px)] lg:p-7 lg:w-[50%]">
+        <h2 class="text-xl font-semibold mt-12 lg:mt-0">Fiber</h2>
+        <h1 class="text-[41px] font-bold mt-10 mb-5">Create your Fiber account</h1>
+        <label class="text-l font-semibold mt-4 mb-1.5">Your Name</label>
+        <input type="text" placeholder="John Doe" class="lg:w-[500px] w-full border border-[2px] border-gray-300 rounded text-[18px] p-3">
+        <label class="text-l font-semibold mt-4 mb-1.5">E-mail</label>
+        <input type="email" placeholder="john@example.com" class="lg:w-[500px] w-full border border-[2px] border-gray-300 rounded text-[18px] p-3">
+        <label class="text-l font-semibold mt-4 mb-1.5">Password</label>
+        <div class="flex justify-between lg:w-[500px] w-full border border-[2px] border-gray-300 rounded">
+            <input type="password" class="w-[450px] border-none text-[18px] p-3" placeholder="At least 8 characters">
+            <img src="Assets/hide password.svg" class="m-3">
+        </div>
+        <div class="lg:w-[500px] w-full flex mt-5 mb-6">
+            <input type="checkbox" class="w-6 h-6 border border-[1px] border-gray-100 rounded mb-6 mr-2">
+            <p class="text-l">By creating an account on Fiber, you agree to the 
+                <a href="" class="underline text-indigo-700 font-bold">Terms & Conditions</a>.
+            </p>
+        </div>
+        <button class="lg:w-[500px] wf p-3 bg-indigo-700 text-l font-bold text-white">Create Fiber Account</button>
+        <p class="text-l text-center mt-2 mb-5">Already have an account? <a href="" class="text-indigo-700">Sign in</a></p>
+    </main>
+    <aside class="w-full lg:w-1/2 bg-indigo-700 hidden lg:flex flex-col justify-center items-center">
+        <div class="w-[70%] h-max rounded overflow-hidden">
+            <img src="Assets/Sign Up Image.png">
+            <h1 class="text-[36px] font-semibold text-white text-center mt-3 mb-0">Unparalleled Templates</h1>
+            <p class="text-sm text-center text-indigo-200">Crafted by a team of professional designers, our<br>templates are eunparalleled in the market.</p>
+            <div class="flex w-max mt-2 ml-auto mr-auto">
+                <span class="w-[10px] h-[10px] m-1 rounded-full bg-white"></span>
+                <span class="w-[10px] h-[10px] m-1 rounded-full bg-indigo-300"></span>
+                <span class="w-[10px] h-[10px] m-1 rounded-full bg-indigo-300"></span>
+                <span class="w-[10px] h-[10px] m-1 rounded-full bg-indigo-300"></span>
+            </div>
+        </div>
+    </aside>
+</body>
+</html>
